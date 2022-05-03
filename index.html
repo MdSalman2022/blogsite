@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DocOnline blog</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="icon" type="image/x-icon" href="/images/app icon 2.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="popup">
+        <div class="popup-content">
+            <i class="fa-regular fa-circle-xmark close"></i>
+            <i class="fa-solid fa-user"></i>
+            <form action="">
+                <input type="text" placeholder="Username" class="name" required>
+                <input type="password" placeholder="Password" class="pas" required>
+                <button class="button logbtn" type="submit">Login</button>
+            </form>
+            
+            <!-- <a href="#" class="button log" type="submit">Login</a> -->
+        </div>
+    </div>
+    <div class="popup2">
+        <div class="popup-content">
+            <i class="fa-regular fa-circle-xmark close"></i>
+            <i class="fa-solid fa-user"></i>
+            <form action="">
+                <input type="text" placeholder="Username" class="name2" required>
+                <input type="password" placeholder="Password" class="pas2" required>
+                <input type="email" placeholder="Email Address" class="email" required>
+                <input type="number" placeholder="Phone Number" class="phn" required>
+                <button class="button regbtn" type="submit">Register</button>
+            </form>
+            
+            <!-- <a href="#" class="button log" type="submit">Login</a> -->
+        </div>
+    </div>
+    <div class="container">
+        <navbar>
+                <div class="left">
+                    <div class="logo"><img src="images/logo.png" alt=""></div>
+                </div>
+                <div class="mid">
+                    <ul class="horizontal">
+                        <li><a class="active home" href="#home">Home</a></li>
+                        <li><a href="#cat">Category</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="right">
+                    <ul class="horizontal">
+                        <div class="auth">
+                            <li><a href="" class="login sign">Login</a></li>
+                            <li><a href="" class="reg sign">Register</a></li>
+                        </div>
+                    </ul>
+                </div>
+        </navbar>
+
+        <div class="content">
+                
+            <div class="featured" id="home">
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <div class="grid-content link">
+                            <img src="images/depressed.png" alt="">
+                            <div class="text">
+                                <h2>Your Guide to Managing Workplace Anxiety</h2>
+                                <p>Do anxious feelings tend to bubble up suddenly while you’re at work? Do you get nervous just thinking about your job? Does your mood change come Monday morning, or Sunday evening, for that matter?</p>
+                                <br>
+                                <h4>By Ian Rights</h4>
+                            </div>    
+                        </div>            
+                    </div>
+                    
+                    <div class="grid-item">
+                        <div class="grid-content link">
+                            <img src="images/farm.png" alt="">
+                            <div class="text">
+                            <h2>Can You Follow an Eco-Friendly Diet and Still Eat Meat?</h2>
+                            <p>If you’re concerned about the environment, you may wonder whether to continue eating meat.</p>
+                            <br>
+                            <h4>By Ian Rights</h4>    
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="explore" id="cat">
+                <a class="left" href=""><h4>EXPLORE BY</h4></a>
+                                <a class="right" href="">
+                                    <h4>View All <i class="fa-solid fa-caret-right"></i></h4>
+                                </a>
+                                <div class="grid-container2">
+                                    <div class="topic">
+                                        <img src="images/nutrition.png" alt="">
+                                        <h2>Nutrition</h2>
+                                    </div>
+                                    <div class="topic"><img src="images/sleep.png" alt="">
+                                        <h2>Sleep</h2>
+                                    </div>
+                                    <div class="topic"><img src="images/mental.png" alt="">
+                                        <h2>Mental Health</h2>
+                                    </div>
+                                    <div class="topic"><img src="images/fitness.png" alt="">
+                                        <h2>Fitness</h2>
+                                    </div>
+                                </div>
+
+                    </div>
+
+                    <div class="posts" id="blog">
+                        <div class="blogs ">
+                            <h1>All Blog Posts</h1>
+                            <p>search your desired post</p>
+                            <div class="search_wrap search_wrap">
+                                <div class="search_box">
+                                    <input type="text" class="input" placeholder="Search...">
+                                    <div class="btn">
+                                        <p>Search Now</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="parent-grid">
+                            <div class="grid-container3-1">
+                                <div class="post link">
+                                    <img src="images/depressed.png" alt="">
+                                    <h4>Your Guide to Managing Workplace Anxiety</h4>
+                                </div>
+                                <div class="post link">
+                                    <img src="images/farm.png" alt="">
+                                    <h4>Can You Follow an Eco-Friendly Diet and Still Eat Meat?</h4>
+                                </div>
+                                <div class="post link">
+                                    <img src="images/img1.png" alt="">
+                                    <h4>The Definitive Guide to Healthy Eating in Real Life</h4>
+                                </div>
+                                <div class="post link">
+                                    <img src="images/img2.png" alt="">
+                                    <h4>Incorporating Plant-Based Meat Alternatives into Your Healthy Diet</h4>
+                                </div>
+                                <div class="post link">
+                                    <img src="images/img3.png" alt="">
+                                    <h4>10 Simple Dinner Ideas for Healthy Eating in Real Life</h4>
+                                </div>
+                                <div class="post link">
+                                    <img src="images/img4.png" alt="">
+                                    <h4>How to Create a Healthy Soul Food Plate — Guide and Recipes</h4>
+                                </div>
+                                <div class="post link">
+                                    <img src="images/img5.png" alt="">
+                                    <h4>I’m a Dietitian on a Nutrient-Dense, Whole Foods-Based Diet</h4>
+                                </div>
+                                <div class="post link">
+                                    <img src="images/img6.png" alt="">
+                                    <h4>The Definitive Guide to Healthy Grocery Shopping</h4>
+                                </div>
+                                <div class="post link">
+                                    <img src="images/img7.png" alt="">
+                                    <h4>Healthy Eating Your Whole Family Can Enjoy</h4>
+                                </div>
+                            </div>
+                            <div class="grid-contaienr3-2">
+                                <h2>Most Popular</h2>
+                                <div class="recent">
+                                    <div class="grid-container5">
+                                        <div class="recpost link">
+                                            <img src="images/depressed.png" alt="">
+                                            <div class="subtext">
+                                                <h3>Your guide to Managing Workplace Anxiety </h3>
+                                                <p id="date">3 March 2022</p>  
+                                            </div> 
+                                        </div>
+                                        <div class="recpost link">
+                                            <img src="images/img1.png" alt="">
+                                            <div class="subtext">
+                                                <h3>Lorem ipsum dolor sit amet</h3>
+                                                <p id="date">3 March 2022</p>  
+                                            </div> 
+                                        </div>
+                                        <div class="recpost link">
+                                            <img src="images/img2.png" alt="">
+                                            <div class="subtext">
+                                                <h3>Lorem ipsum, dolor sit Similique, adipisci?</h3>
+                                                <p id="date">3 March 2022</p>  
+                                            </div> 
+                                        </div>
+                                        <div class="recpost link">
+                                            <img src="images/img3.png" alt="">
+                                            <div class="subtext">
+                                                <h3>asperiores, nobis pariatur quae doloremque.</h3>
+                                                <p id="date">3 March 2022</p>  
+                                            </div> 
+                                        </div>
+                                                                                            
+                                    </div>
+                                </div>
+                            </div><button class="button viewBlog" type="submit" formaction="/blog.html">View All</button>
+                        </div>
+                    </div>                
+                </div>          
+            </div>          
+        </div>
+    </div>
+        
+    <div class="blog-content">
+            <div class="posts" id="blog">
+                <div class="blogs ">
+                    <h1>All Blog Posts</h1>
+                    <p>search your desired post</p>
+                    <div class="search_wrap search_wrap">
+                        <div class="search_box">
+                            <input type="text" class="input" placeholder="Search...">
+                            <div class="btn">
+                                <p>Search Now</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="parent-grid">
+                    <div class="grid-container3-1">
+                        <div class="post blink">
+                            <img src="images/depressed.png" alt="">
+                            <h4>Your Guide to Managing Workplace Anxiety</h4>
+                        </div>
+                        <div class="post blink">
+                            <img src="images/farm.png" alt="">
+                            <h4>Can You Follow an Eco-Friendly Diet and Still Eat Meat?</h4>
+                        </div>
+                        <div class="post blink">
+                            <img src="images/img1.png" alt="">
+                            <h4>The Definitive Guide to Healthy Eating in Real Life</h4>
+                        </div>
+                        <div class="post blink">
+                            <img src="images/img2.png" alt="">
+                            <h4>Incorporating Plant-Based Meat Alternatives into Your Healthy Diet</h4>
+                        </div>
+                        <div class="post blink">
+                            <img src="images/img3.png" alt="">
+                            <h4>10 Simple Dinner Ideas for Healthy Eating in Real Life</h4>
+                        </div>
+                        <div class="post blink">
+                            <img src="images/img4.png" alt="">
+                            <h4>How to Create a Healthy Soul Food Plate — Guide and Recipes</h4>
+                        </div>
+                        <div class="post blink">
+                            <img src="images/img5.png" alt="">
+                            <h4>I’m a Dietitian on a Nutrient-Dense, Whole Foods-Based Diet</h4>
+                        </div>
+                        <div class="post blink">
+                            <img src="images/img6.png" alt="">
+                            <h4>The Definitive Guide to Healthy Grocery Shopping</h4>
+                        </div>
+                        <div class="post blink">
+                            <img src="images/img7.png" alt="">
+                            <h4>Healthy Eating Your Whole Family Can Enjoy</h4>
+                        </div>
+                        <div class="post blink">
+                            <img src="images/img8.jpg" alt="">
+                            <h4>Healthy Eating Your Whole Family Can Enjoy</h4>
+                        </div>
+                        <div class="post blink">
+                            <img src="images/img9.jpg" alt="">
+                            <h4>Healthy Eating Your Whole Family Can Enjoy</h4>
+                        </div>
+                        <div class="post blink">
+                            <img src="images/img10.jpg" alt="">
+                            <h4>Healthy Eating Your Whole Family Can Enjoy</h4>
+                        </div>
+                        <div class="post blink">
+                            <img src="images/img11.jpg" alt="">
+                            <h4>Healthy Eating Your Whole Family Can Enjoy</h4>
+                        </div>
+                        <div class="post blink">
+                            <img src="images/img12.jpg" alt="">
+                            <h4>Healthy Eating Your Whole Family Can Enjoy</h4>
+                        </div>
+                        <div class="post blink">
+                            <img src="images/img13.png" alt="">
+                            <h4>Healthy Eating Your Whole Family Can Enjoy</h4>
+                        </div>
+                        <div class="post blink">
+                            <img src="images/img14.jpg" alt="">
+                            <h4>Healthy Eating Your Whole Family Can Enjoy</h4>
+                        </div>
+                        <div class="post blink">
+                            <img src="images/img15.jpg" alt="">
+                            <h4>Healthy Eating Your Whole Family Can Enjoy</h4>
+                        </div>
+                        <div class="post blink">
+                            <img src="images/img16.jpg" alt="">
+                            <h4>Healthy Eating Your Whole Family Can Enjoy</h4>
+                        </div>
+                        <div class="post blink">
+                            <img src="images/img17.png" alt="">
+                            <h4>Healthy Eating Your Whole Family Can Enjoy</h4>
+                        </div>
+                        <div class="post blink">
+                            <img src="images/img18.jpg" alt="">
+                            <h4>Healthy Eating Your Whole Family Can Enjoy</h4>
+                        </div>
+                        <div class="post blink">
+                            <img src="images/img1.png" alt="">
+                            <h4>Healthy Eating Your Whole Family Can Enjoy</h4>
+                        </div>
+                        <div class="post blink">
+                            <img src="images/img2.png" alt="">
+                            <h4>Healthy Eating Your Whole Family Can Enjoy</h4>
+                        </div>
+                        <div class="post blink">
+                            <img src="images/img3.png" alt="">
+                            <h4>Healthy Eating Your Whole Family Can Enjoy</h4>
+                        </div>
+                        <div class="post blink">
+                            <img src="images/img4.png" alt="">
+                            <h4>Healthy Eating Your Whole Family Can Enjoy</h4>
+                        </div>
+                    </div>
+                    <div class="grid-contaienr3-2">
+                        <h2>Most Popular</h2>
+                        <div class="recent">
+                            <div class="grid-container5">
+                                <div class="recpost blink">
+                                    <img src="images/depressed.png" alt="">
+                                    <div class="subtext">
+                                        <h3>Your guide to Managing Workplace Anxiety </h3>
+                                        <p id="date">3 March 2022</p>  
+                                    </div> 
+                                </div>
+                                <div class="recpost blink">
+                                    <img src="images/img1.png" alt="">
+                                    <div class="subtext">
+                                        <h3>Lorem ipsum dolor sit amet</h3>
+                                        <p id="date">3 March 2022</p>  
+                                    </div> 
+                                </div>
+                                <div class="recpost blink">
+                                    <img src="images/img2.png" alt="">
+                                    <div class="subtext">
+                                        <h3>Lorem ipsum, dolor sit Similique, adipisci?</h3>
+                                        <p id="date">3 March 2022</p>  
+                                    </div> 
+                                </div>
+                                <div class="recpost blink">
+                                    <img src="images/img3.png" alt="">
+                                    <div class="subtext">
+                                        <h3>asperiores, nobis pariatur quae doloremque.</h3>
+                                        <p id="date">3 March 2022</p>  
+                                    </div> 
+                                </div>
+                                                                                    
+                            </div>
+                        </div>
+                        <br><br>
+                    <div class="grid-contaienr3-2">
+                        <h2>Recommended Topics</h2>
+                        <div class="recent">
+                            <div class="grid-container6">
+                                <div class="recpost tlink">
+                                    <p class="tags">Heart_Issue</p>
+                                </div>
+                                <div class="recpost tlink">
+                                    <p class="tags">Eye_problem</p>
+                                </div>
+                                <div class="recpost tlink">
+                                    <p class="tags">Lungs_Cancer</p>
+                                </div>
+                                <div class="recpost tlink">
+                                    <p class="tags">Allergy</p>
+                                </div>
+                                <div class="recpost tlink">
+                                    <p class="tags">Diphtheria</p>
+                                </div>
+                                <div class="recpost tlink">
+                                    <p class="tags">Flu</p>
+                                </div>
+                                <div class="recpost tlink">
+                                    <p class="tags">Mumps</p>
+                                </div>
+                                <div class="recpost tlink">
+                                    <p class="tags">Tetanus</p>
+                                </div>
+                                <div class="recpost tlink">
+                                    <p class="tags">Rubella </p>
+                                </div>
+                                <div class="recpost tlink">
+                                    <p class="tags">Pneumonia </p>
+                                </div>
+                                <div class="recpost tlink">
+                                    <p class="tags">HIV/AIDS </p>
+                                </div>
+                                                                                    
+                            </div>
+                        </div>
+                    <!-- </div><button class="button viewBlog" type="submit" formaction="/blog.html">View All</button> -->
+            
+                </div>
+                </div>                
+            </div>
+        </div>        
+    </div>      
+          
+    <div class="post-content">
+            <header class="typewriter">
+                <img src="images/depressed.png" alt="">
+                <h1>Your Guide to Managing Workplace Anxiety</h1>
+                <h4>By Ian Rights</h4>
+                <br>
+            </header>
+            <div class="post-container">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni, soluta repellat necessitatibus maiores quia, explicabo culpa asperiores voluptas rerum molestias atque dolore vero, veniam ipsum. Officiis quis dolorem suscipit quo cumque hic, libero totam alias optio! Neque dolor ab est, molestiae dicta, molestias beatae nostrum repellat non aliquid soluta. Quos aliquam magnam non. <br><br>
+                Animi, explicabo odit, consequatur laudantium cumque consectetur dolor doloremque quo reprehenderit voluptatem molestiae eos ut harum. Quis ad ipsum, ex, possimus ratione quod commodi cupiditate nesciunt esse accusamus veritatis sit officiis atque. At, expedita magni quidem tempora impedit facere neque suscipit esse dolore nihil velit, facilis aspernatur aliquid necessitatibus hic similique accusamus. <br> <br> <br>
+                Quo officia maiores deserunt. Nemo hic dicta quibusdam, ipsam possimus a enim dignissimos, molestiae iusto alias autem repellendus nesciunt, quo natus exercitationem inventore amet eveniet? Odit quo inventore aut quasi nihil quos sequi temporibus, voluptatem numquam a saepe rerum assumenda, ab nobis necessitatibus repudiandae aperiam.
+                    <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis doloribus corporis quisquam repellendus quae tenetur ad obcaecati animi doloremque atque! Facere vitae illum consectetur? Quae, tempore, exercitationem dolorum nihil omnis eveniet nam beatae officia veritatis sequi id, illo laudantium illum reiciendis dolorem ipsam distinctio. Quidem necessitatibus voluptatem iure eveniet alias!
+                <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quo dignissimos accusamus id mollitia similique blanditiis in sit neque nostrum dolores, illo totam facere reprehenderit veniam sunt eum distinctio, assumenda ratione quibusdam iste? Iste saepe repudiandae omnis illum veniam autem suscipit eligendi maxime voluptates, consequuntur aliquid enim ab atque incidunt sit? Illum, error quidem? Reprehenderit quos, temporibus eaque repellat nulla nesciunt! Nisi, perspiciatis sequi! Explicabo amet sunt voluptas, sequi corporis odit labore voluptate harum nostrum in esse blanditiis vel expedita placeat reiciendis facere similique dolorum? Nulla fugiat molestias, sit commodi quaerat earum ut! Quis facilis nesciunt incidunt magnam magni excepturi.
+                </p>
+                <br>
+                <br>
+                <br>
+                <div class="icons">
+                    <div class="icons-left">
+                        <p class="love"><i class="fa-regular fa-heart "></i> <span class="count">122</span></p>    
+                        <p class="comm"><i class="fa-regular fa-comment"></i></i><span> 29</span></>  
+                    </div>
+                    <div class="icons-right">
+                        <p><i class="fa-solid fa-arrow-up-right-from-square share"></i></p>  
+                        <p><i class="fa-regular fa-bookmark bookmark"></i></p>  
+                        <p><i class="fa-solid fa-ellipsis more"></i></p>  
+                    </div>      
+                    <br>              
+                </div>
+                <form action="" class="comment">
+                    <br><br>
+                    <textarea name="comment" id="comment" cols="100" rows="10" placeholder="What are your thoughts?"></textarea><br>
+                    <button class="button canbtn">Cancel</button>
+                    <button class="button resbtn">Respond</button>
+                    <br>
+                </form>
+                <div class="responses"><br>
+                    <h2>Comments </h2><br>
+                    <div class="myresponse response">
+                        
+                    </div>
+                    <div class="response">
+                        <p><i class="fa-solid fa-user"></i> Anton P.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, vero.</p>
+                        <div class="icons-left">
+                            <p class="heart"><i class="fa-regular fa-heart "></i> <span class="count2">2</span></p>    
+                            <p class="comm"><i class="fa-regular fa-comment"></i><span> 19</span></p>   
+                        </div>
+                        <br>
+                    </div>
+                    <br>
+                    <div class="response">
+                        <p><i class="fa-solid fa-user"></i> Peter Crouch</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, vero.</p>
+                        <div class="icons-left">
+                            <p class="heart"><i class="fa-regular fa-heart "></i> <span class="count2">2</span></p>    
+                            <p class="comm"><i class="fa-regular fa-comment"></i><span> 21</span></p> 
+                        </div>
+                        <br>
+                    </div>
+                    <br>
+                    <div class="response">
+                        <p><i class="fa-solid fa-user"></i> Ahmed Khan</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, vero.</p>
+                        <div class="icons-left">
+                            <p class="heart"><i class="fa-regular fa-heart "></i> <span class="count2">2</span></p>    
+                            <p class="comm"><i class="fa-regular fa-comment"></i><span> 9</span></p> 
+                            
+                        </div>
+                        <br>
+                    </div>
+                    <br>
+                    <div class="response">
+                        <p><i class="fa-solid fa-user"></i> Chowdhury</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, vero.</p>
+                        <div class="icons-left">
+                            <p class="heart"><i class="fa-regular fa-heart "></i> <span class="count2">2</span></p>    
+                            <p class="comm"><i class="fa-regular fa-comment"></i><span> 5</span></p>   
+                        </div>
+                        
+                    </div>
+                    <br>
+                </div>
+            </div>
+            
+    </div>
+    <div class="category-page">
+            <h1 class="tag"></h1>
+            <div class="new-grid">
+                <div class="grid-container3-1">
+                    <div class="post blink">
+                        <img src="images/depressed.png" alt="">
+                        <h4>Your Guide to Managing Workplace Anxiety</h4>
+                    </div>
+                    <div class="post blink">
+                        <img src="images/farm.png" alt="">
+                        <h4>Can You Follow an Eco-Friendly Diet and Still Eat Meat?</h4>
+                    </div>
+                    <div class="post blink">
+                        <img src="images/img1.png" alt="">
+                        <h4>The Definitive Guide to Healthy Eating in Real Life</h4>
+                    </div>
+                    <div class="post blink">
+                        <img src="images/img2.png" alt="">
+                        <h4>Incorporating Plant-Based Meat Alternatives into Your Healthy Diet</h4>
+                    </div>
+                    <div class="post blink">
+                        <img src="images/img3.png" alt="">
+                        <h4>10 Simple Dinner Ideas for Healthy Eating in Real Life</h4>
+                    </div>
+                    <div class="post blink">
+                        <img src="images/img4.png" alt="">
+                        <h4>How to Create a Healthy Soul Food Plate — Guide and Recipes</h4>
+                    </div>
+                </div>
+            </div>
+    </div>
+        
+    <div class="newsletter" id="contact">
+                <div>
+                    <h1>Register for our Free <br> 7-Day Trial Now!</h1>
+                    <div class="search_wrap search_wrap">
+                        <div class="search_box">
+                            <form>
+                                <p class="einput"></p><input type="email" class="input" placeholder="Enter your email address">
+                                <button class="btn">Subscribe Now!</button>                            
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-container4">
+                    <div class="div1">
+                        <p>PRODUCT</p>
+                        <ul>
+                            <li>Lorem</li>
+                            <li>Lorem</li>
+                            <li>Lorem</li>
+                            <li>Lorem</li>
+                            <li>Lorem</li>
+                            <li>Lorem</li>
+                        </ul>
+                    </div>
+                    <div class="div1">
+                        <p>FOR DEVELOPERS</p>
+                        <ul>
+                            <li>Lorem</li>
+                            <li>Lorem</li>
+                            <li>Lorem</li>
+                            <li>Lorem</li>
+                            <li>Lorem</li>
+                            <li>Lorem</li>
+                        </ul>
+                    </div>
+                    <div class="div1">
+                        <p>FOR BRANDS</p>
+                        <ul>
+                            <li>Lorem</li>
+                            <li>Lorem</li>
+                            <li>Lorem</li>
+                            <li>Lorem</li>
+                            <li>Lorem</li>
+                            <li>Lorem</li>
+                        </ul>
+                    </div>
+                    <div class="div1">
+                        <p>RESOURCE</p>
+                        <ul>
+                            <li>Lorem</li>
+                            <li>Lorem</li>
+                            <li>Lorem</li>
+                            <li>Lorem</li>
+                            <li>Lorem</li>
+                            <li>Lorem</li>
+                        </ul>
+                    </div>
+                    <div class="div1">
+                        <p>ABOUT</p>
+                        <ul>
+                            <li>Lorem</li>
+                            <li>Lorem</li>
+                            <li>Lorem</li>
+                            <li>Lorem</li>
+                            <li>Lorem</li>
+                            <li>Lorem</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+        
+    </div>
+
+
+    <footer><p>&copy; All rights reserved to salman</p> </footer>
+
+<script src="index.js"></script>
+</body>
+
+</html>
