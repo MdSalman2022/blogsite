@@ -14,16 +14,15 @@ let name2 = document.querySelector(".name2")
 const pass2 = document.querySelector(".pas2")
 
 const logo = document.querySelector(".logo")
-const url = 'https://mdsalman2022.github.io/blogsite/'
 const home = document.querySelector(".home")
 
 logo.addEventListener("click", function(e){
   e.preventDefault();
-  window.location = url
+  window.location = '/'
 })
 home.addEventListener("click", function(e){
   e.preventDefault();
-  window.location = url
+  window.location = '/'
 })
 
 sign.addEventListener("click", function(e){
