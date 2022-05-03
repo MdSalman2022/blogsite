@@ -14,7 +14,7 @@ let name2 = document.querySelector(".name2")
 const pass2 = document.querySelector(".pas2")
 
 const logo = document.querySelector(".logo")
-const url = 'http://127.0.0.1:5500/index.html?'
+const url = 'https://mdsalman2022.github.io/blogsite/'
 const home = document.querySelector(".home")
 
 logo.addEventListener("click", function(e){
