@@ -14,15 +14,21 @@ let name2 = document.querySelector(".name2")
 const pass2 = document.querySelector(".pas2")
 
 const logo = document.querySelector(".logo")
-const home = document.querySelector(".home")
+const hm = document.querySelector("#home")
 
 logo.addEventListener("click", function(e){
   e.preventDefault();
-  window.location = '/'
+  content.style.display = "block"
+  document.documentElement.scrollTop = 0;
+
+
 })
-home.addEventListener("click", function(e){
+hm.addEventListener("click", function(e){
   e.preventDefault();
-  window.location = '/'
+  content.style.display = "block"
+  document.documentElement.scrollTop = 0;
+
+
 })
 
 sign.addEventListener("click", function(e){
@@ -113,7 +119,7 @@ const comments = document.querySelector(".comment");
 link.forEach(item => {
   item.addEventListener('click', event => {
     console.log("hello");
-      content.innerHTML = ""
+      content.style.display = "none"
       pcontent.style.display = "block"
       document.documentElement.scrollTop = 0;
   })
@@ -196,7 +202,7 @@ const blogcontent = document.querySelector(".blog-content")
 viewBlog.addEventListener("click", function(e){
   e.preventDefault();
 
-      content.innerHTML = ""
+      content.style.display = "none"
       blogcontent.style.display = "block"
       document.documentElement.scrollTop = 0;
 })

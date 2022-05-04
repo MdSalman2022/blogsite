@@ -287,6 +287,7 @@ navbar .logo{
 
 .content{
   padding: 50px 0px;
+  display: block;
 }
 
 .grid-container {
@@ -737,7 +738,7 @@ footer p {
   float: right;
 }
 .post-content{
-  padding: 20px 0px;
+  padding: 100px 0px;
   width: 70%;
   height: 100%;
   margin: auto;
