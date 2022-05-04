@@ -19,6 +19,8 @@ const hm = document.querySelector("#home")
 logo.addEventListener("click", function(e){
   e.preventDefault();
   content.style.display = "block"
+  pcontent.style.display = "none"
+  catpage.style.display = "none"
   document.documentElement.scrollTop = 0;
 
 
@@ -26,6 +28,10 @@ logo.addEventListener("click", function(e){
 hm.addEventListener("click", function(e){
   e.preventDefault();
   content.style.display = "block"
+  pcontent.style.display = "none"
+  catpage.style.display = "none"
+
+
   document.documentElement.scrollTop = 0;
 
 
@@ -76,6 +82,7 @@ login.addEventListener("click", function(e){
 
 }
 })
+
 let email = document.querySelector(".email")
 let phn = document.querySelector(".phn")
 regbt.addEventListener("click", function(e){
@@ -109,6 +116,19 @@ regbt.addEventListener("click", function(e){
   comments.style.display="block"
 }
 })
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 const link = document.querySelectorAll(".link");
 const content = document.querySelector(".content")
@@ -252,6 +272,33 @@ window.addEventListener("scroll", function(){
 
 
 
+const elink = document.querySelectorAll(".elink");
+
+elink.forEach(item => {
+  item.addEventListener('click', function(e){
+    e.preventDefault();
+      content.style.display = 'none'
+      catpage.style.display = "block"
+      let tagline = tag.innerText
+      let taglist = item.innerText
+
+      tagline = taglist
+      tag.innerHTML =tagline
+      // tag.innerHTML.style.color="#1da0f2"
+
+      document.documentElement.scrollTop = 0;
+  })
+})
+
+let navb = document.querySelector(".navb").querySelectorAll("a");
+console.log(navb);
+
+navb.forEach(element =>{
+  element.addEventListener("click", function(){
+    navb.forEach(nav=>nav.classList.remove("active"))
+    this.classList.add("active");
+  })
+})
 
 
 
@@ -273,38 +320,5 @@ window.addEventListener("scroll", function(){
 
 
 
-// const btn = document.querySelector(".btn")
-// const einput = document.querySelector(".einput")
 
 
-// btn.addEventListener("click", function(e){
-//   e.preventDefault();
-//   einput = einput.value;
-//   console.log(einput);
-// })
-
-
-// post.forEach(item => {
-//   item.addEventListener('click', event => {
-//     console.log("hello");
-//       content.innerHTML = ""
-//       pcontent.style.display = "block"
-//       document.documentElement.scrollTop = 0;
-//   })
-// })
-
-
-// love.forEach(function(love) {
-//   love.addEventListener('click',function(e){
-//     e.preventDefault();
-//     love.classList.toggle("col");
-//     if(love.classList.contains("col")){
-//       let sum = parseInt(count.innerHTML);
-//       count.innerHTML = ++sum
-//     }
-//     else{    
-//     let sum = parseInt(count.innerHTML);
-//     count.innerHTML = --sum
-//     }
-//   })
-// })
